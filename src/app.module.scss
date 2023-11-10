@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+.lastQuestion {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrongAnswers {
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.numOfQuestions {
+  position: absolute;
+  z-index: 2;
+  left: 30px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.cardBlock {
+  position: relative;
+}
